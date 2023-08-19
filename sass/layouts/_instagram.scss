@@ -1,0 +1,100 @@
+.instagram {
+    background-color: #F5F0EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram_wrapper {
+    max-width: 1440px;
+ 
+}
+
+// .insta_card {
+//     min-width: 600px;
+//     min-height: 200px;
+    
+// }
+.insta_card {
+    background-color:#1B5B31;
+    width: 1040px;
+    height: 358px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 30px; 
+    position: relative;
+      @include mobile {
+     margin-left: 0px;
+     margin-right: 0px;
+     margin-top: 380px;
+     padding-left: 0px;
+   }
+  }
+
+.insta_title {
+    margin: 0;
+    color: white;
+   
+   padding-left: 110px;
+   padding-right: 64px;
+    color: #F5F0EC;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: -2px;
+@include mobile {
+    font-size: 21px;
+    padding-left: 30px;
+}
+@include tablet {
+    padding-left: 10px;
+    font-size: 24px;
+}
+}
+
+.insta_subtitle {
+   position: absolute;
+    right: 110px; 
+    top: 120px; 
+    color:#F5F0EC;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+letter-spacing: -0.16px;
+padding-bottom: 24px;
+@include mobile {
+    font-size: 12px;
+    right: 7%;
+}
+@include tablet {
+    right: 50px;
+    font-size: 14px;
+}
+}
+
+// @media screen and (max-width: 1199px) {
+//     .insta_title {
+//     margin: 0;
+//     color: white;
+    
+//    padding-left: 20px;
+//    padding-right: 64px;
+//     color: #F5F0EC;
+// font-family: Montserrat;
+// font-size: 20px;
+// font-style: normal;
+// // font-weight: 400;
+// // line-height: 120%;
+// // letter-spacing: -2px;
+// }
+
+

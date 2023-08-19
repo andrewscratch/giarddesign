@@ -1,0 +1,17 @@
+{
+  "homepage": "https://andrewscratch.github.io/GiardDesign/",
+"name": "zadanie-polska",
+  "version": "1.0.0",
+  "description": "",
+  "main": "masonry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "imagesloaded": "^5.0.0",
+    "masonry-layout": "^4.2.2"
+  }
+}

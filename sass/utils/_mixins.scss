@@ -1,0 +1,42 @@
+// @mixin mobile {
+//     @media screen and (min-width:480px) {
+//         @content;
+//     }
+// }
+
+// @mixin tablet {
+//     @media screen and (min-width:767px) {
+//         @content;
+//     }
+// }
+
+// @mixin desktop {
+//     @media screen and (min-width:1200px) {
+//         @content;
+//     }
+// }
+
+// Define breakpoint values
+$breakpoint-mobile-start: 320px;
+$breakpoint-mobile-end: 767px;
+$breakpoint-tablet-start: 768px; // Adjusted this to start at 480px to prevent overlap
+$breakpoint-tablet-end: 1199px;
+$breakpoint-desktop: 1200px;
+
+@mixin mobile {
+    @media screen and (min-width: $breakpoint-mobile-start) and (max-width: $breakpoint-mobile-end) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media screen and (min-width: $breakpoint-tablet-start) and (max-width: $breakpoint-tablet-end) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media screen and (min-width: $breakpoint-desktop) {
+        @content;
+    }
+}

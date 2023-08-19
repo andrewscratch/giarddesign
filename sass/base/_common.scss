@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+body {
+color: black;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: -0.14px;
+}
+
+
+.hidden {
+   display: none;
+}
+
+
+
+
+a {
+  text-decoration: none; 
+  list-style: none; 
+  color: inherit;
+}
+
+li {
+  text-decoration: none; 
+  list-style: none;   
+}

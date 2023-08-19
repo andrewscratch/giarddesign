@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <title>giarddesign</title>
+      <!-- <link rel="stylesheet" href="css/styles.css"> -->
+    <link rel="stylesheet" href="css/main.min.css"/>
+</head>
+<body>
+   
+ <header class="header">
+    <div class="container header__inner">
+    <a href="#" class="header_logo"><img src="img/logo_black.svg" alt="" class="logo__img"></a>  
+    <div class="hamburger" id="hamburger">
+          <span></span>
+   <span></span>
+   <span></span>
+  
+</div>
+<nav class="menu">
+    
+    <ul class="menu__list wrapper">
+        <button class="close-menu"><img src="img/close.svg" alt="" class="menu_close"></button>
+        <li class="menu__list-item"><a href="#oferta" class="menu__list-link">Oferta</a></li>
+        <li class="menu__list-item"><a href="#firma" class="menu__list-link">O firmie</a></li>
+        <li class="menu__list-item"><a href="#gallery" class="menu__list-link">Realizacje</a></li>
+        <li class="menu__list-item"><a href="#instagram" class="menu__list-link">Kontakt</a></li>
+        <li class="menu__list-item search-input-item">
+            <input type="text" class="search-input" placeholder="Search...">
+        </li>
+        <li class="menu__list-item">
+            <a href="#" class="lupa" onclick="toggleSearch();"><img src="img/lupa.svg" alt="" class="lupa__img"></a> 
+        </li>
+    </ul>
+</nav>
+
+</div>
+
+ </header>
+
+
+
+
+ <div class="container">
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="headline">Nowoczesna aranżacja Twojego ogrodu </h1>
+            <p class="description">Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji. Oferujemy kompleksowy zakres usług z indywidualnym podejściem do każdego projektu.</p>
+            <div class="buttons">
+                <button class="btn btn-primary">Skontaktuj się z nami</button>
+                <button id="navigateBtn" class="btn btn-secondary" style="display: inline-flex; align-items: center;">
+    Zobacz nasze realizacje
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none" style="margin-left: 8px;">
+        <path d="M16 8.49529L15.1043 7.59959L8.63642 14.0769L8.63642 0.5L7.36358 0.5L7.36358 14.0675L0.895699 7.59959L9.54553e-08 8.49529L8.00471 16.5L16 8.49529Z" fill="#1B5B31"/>
+    </svg>
+</button>
+
+                </button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="img/Hero.jpg" alt="Hero Image">
+        </div>
+    </section>
+</div>
+
+<div class="container">
+    <section class="oferta" id="oferta">
+       <div class="oferta-content">
+        <h4 class="navi_small">Oferta</h4>
+            <h2 class="oferta_title">Działamy kompleksowo</h2>
+            <p class="oferta_description">Oferujemy kompletną obsługę inwestycji terenów zielonych. Projektujemy nowoczesne ogrody przydomowe oraz rezydencjonalne. Stworzymy dla Ciebie projekt, zwizualizujemy go i wcielimy w życie, a na każdym etapie posłużymy radą i wieloletnim doświadczeniem. </p>
+
+             <div class="card-container">
+        <div class="card">
+            <img src="img/pencil.png" alt="pencil">
+            <h3 class="card_title">Projekty</h3>
+            <p class="card_text">Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym wykorzystaniem istniejącej przestrzeni.</p>
+            <a href="#" class="card_link">Dowiedz się więcej
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<path d="M7.99528 -1.20755e-06L7.09959 0.895696L13.5769 7.36358L-7.5502e-07 7.36358L-6.43745e-07 8.63642L13.5675 8.63642L7.09959 15.1043L7.99529 16L16 7.99529L7.99528 -1.20755e-06Z" fill="#1B5B31"/>
+</svg>
+            </a>
+        </div>
+
+        <div class="card">
+            <img src="img/eye.png" alt="eye">
+            <h3 class="card_title">Wizualizacje</h3>
+            <p class="card_text">Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego spaceru animowanego w technologii 3D.</p>
+            <a href="#" class="card_link">Dowiedz się więcej  
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<path d="M7.99528 -1.20755e-06L7.09959 0.895696L13.5769 7.36358L-7.5502e-07 7.36358L-6.43745e-07 8.63642L13.5675 8.63642L7.09959 15.1043L7.99529 16L16 7.99529L7.99528 -1.20755e-06Z" fill="#1B5B31"/>
+</svg>
+            </a>
+        </div>
+
+        <div class="card">
+            <img src="img/stars.png" alt="stars">
+            <h3 class="card_title">Realizacje</h3>
+            <p class="card_text">Zrealizujemy Twoje marzenie przy użyciu najnowszych rozwiązań i zaawansowanych technologii.</p>
+            <a href="#" class="card_link">Dowiedz się więcej
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<path d="M7.99528 -1.20755e-06L7.09959 0.895696L13.5769 7.36358L-7.5502e-07 7.36358L-6.43745e-07 8.63642L13.5675 8.63642L7.09959 15.1043L7.99529 16L16 7.99529L7.99528 -1.20755e-06Z" fill="#1B5B31"/>
+</svg>
+            </a>
+        </div>
+    </div>
+    </section>
+</div>
+
+<div class="container">
+    <section class="firma" id="firma">
+        <div class="firma_image">               
+            <img src="img/Photo (10).jpg" alt="Firma Image">
+        </div>
+        
+        <div class="firma_content">
+            <h4 class="firma_small">O firmie</h4>
+            <h2 class="firma_title">Tworzymy z pasją</h2>
+            <p class="firma_description">Każdy projekt to nowe wyzwanie. Dlatego nasz zespół tworzą wykwalifikowani projektanci oraz architekci, których zadaniem jest rozpoznanie i realizacja potrzeb każdego Klienta. Nasza specjalizacja to przestrzenie nowoczesne, które charakteryzuje minimalizm, geometria i elegancka prostota. Tworzymy ogrody małoobsługowe, dostosowane do współczesnego trybu życia.</p>
+            <div class="buttons">
+                <button class="btn_firma">Poznaj nas bliżej
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+  <path d="M7.99528 -1.20755e-06L7.09959 0.895696L13.5769 7.36358L-7.5502e-07 7.36358L-6.43745e-07 8.63642L13.5675 8.63642L7.09959 15.1043L7.99529 16L16 7.99529L7.99528 -1.20755e-06Z" fill="#F5F0EC"/>
+</svg>
+                </button>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<div class="container gallery_wrapper">
+    <section class="gallery gradient-background" id="gallery">
+    <h4 class="gallery_small">Realizacje</h4>
+    <h2 class="gallery_title">Nasze projekty</h2>
+    <div class="grid">
+        <!-- First 6 Visible Images -->
+       <div class="grid_item">
+    <div class="library"></div>
+    <img src="/img/1.jpg">
+</div>
+<div class="grid_item">
+    <div class="library_v2"></div>
+    <img src="/img/2.jpg">
+</div>
+<div class="grid_item">
+    <div class="library"></div>
+    <img src="/img/3.jpg">
+</div>
+        <div class="grid_item">
+            <div class="library"></div>
+            <img src="/img/4.jpg">
+        </div>
+        <div class="grid_item">
+            <div class="library_v2"></div>
+            <img src="/img/5.jpg">
+        </div>
+        <div class="grid_item">
+            <div class="library"></div>
+            <img src="/img/6.jpg">
+        </div>
+         <div class="grid_item">
+            <div class="library"></div>
+            <img src="/img/7.jpg">
+        </div>
+        <div class="grid_item">
+            <div class="library_v2"></div>
+            <img src="/img/8.jpg">
+        </div>
+        <div class="grid_item">
+            <div class="library"></div>
+            <img src="/img/9.jpg">
+        </div>
+
+        <!-- Hidden Images -->
+        <div class="grid_item hidden">
+            <div class="library"></div>
+            <img src="/img/11.jpeg">
+        </div>
+        <div class="grid_item hidden">
+            <div class="library_v2"></div>
+            <img src="/img/12.jpeg">
+        </div>
+        <div class="grid_item hidden">
+            <div class="library"></div>
+            <img src="/img/13.jpeg">
+        </div>
+        <div class="grid_item hidden">
+            <div class="library_v2"></div>
+            <img src="/img/14.jpeg">
+        </div>
+        <div class="grid_item hidden">
+            <div class="library"></div>
+            <img src="/img/5.jpg">
+        </div>
+        <div class="grid_item hidden">
+            <div class="library"></div>
+            <img src="/img/15.jpeg">
+        </div>
+        <div class="grid_item hidden">
+            <div class="library_v2"></div>
+            <img src="/img/16.jpeg">
+        </div>
+        <div class="grid_item hidden">
+            <div class="library"></div>
+            <img src="/img/17.jpeg">
+        </div>
+        <div class="grid_item hidden">
+            <div class="library"></div>
+            <img src="/img/18.jpeg">
+        </div>
+
+        <!-- Add more grid items with the "hidden" class as needed -->
+
+    </div> <!-- End of .grid -->
+
+    <!-- Load More Button -->
+  <button id="loadMore" class="btn more">
+    Rozwiń
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+        <path d="M16 8.49529L15.1043 7.59959L8.63642 14.0769L8.63642 0.5L7.36358 0.5L7.36358 14.0675L0.895699 7.59959L9.54553e-08 8.49529L8.00471 16.5L16 8.49529Z" fill="#111111"/>
+    </svg>
+</button>
+
+
+</section>
+</div> <!-- End of .container -->
+
+
+<div class="container instagram_wrapper">
+    <section class="instagram" id="instagram">
+        <div class="insta_card">
+            <h2 class="insta_title">Zostańmy w kontakcie! <br>Znajdziesz nas na Instagramie.</h2>
+            <p class="insta_subtitle">Śledź nasze <br> najnowsze realizacje!</p>
+            <button class="btn insta_button">Instagram</button>
+        </div>
+    </section>
+</div>
+
+
+
+
+
+<footer class="footer container">
+    <div class="container">
+
+        <!-- First row of footer -->
+        <div class="footer__inner">
+            <div class="footer__row1">
+                <a href="#" class="logo"><img src="img/logo_white.svg" alt="Logo" class="logo__img"></a>  
+                <div class="right-section">
+                    <span class="footer__text">Daj znać, co możemy dla Ciebie zrobić!</span>
+                    <button class="btn footer__button">Skontaktuj się z nami</button>
+                </div>
+            </div>
+        </div>
+
+        <hr class="fixed-length">
+
+        <!-- Second row of footer -->
+        <div class="footer__row2-wrapper">
+            <div class="footer__row2">
+                <ul class="social__list">
+                    <li class="social__list-item"><a href="#" class="social__list-link">Kontakt</a></li>
+                    <li class="social__list-item"><a href="#" class="social__list-link">Instagram</a></li>
+                    <li class="social__list-item"><a href="#" class="social__list-link">Facebook</a></li>
+                    <li class="social__list-item"><a href="#" class="social__list-link">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="footer__contacts">
+                <a class="phone" href="tel:000-000-000">000-000-000</a>
+                <a class="email" href="mailto:giarddesign@kontakt.pl">giarddesign@kontakt.pl</a>
+            </div>
+        </div>
+
+        <!-- Copyright section -->
+   <div class="copyright-wrapper">
+    <div class="copyright">
+        <p>Prawa zastrzeżone © 2022</p>
+    </div>
+    <div class="author-section">
+        <p class="author">Made by</p> 
+        <a href="https://adrespect.pl/" class="logo" target="_blank" rel="noopener noreferrer">
+            <img src="img/logo-full-light.png" alt="Author Logo" class="logo__img">
+        </a>
+    </div>
+</div>
+
+
+    </div> <!-- End of .container -->
+</footer>
+
+<div id="modal" class="modal">
+    <span class="close-btn">&times;</span>
+    <img id="modalImage" class="modal-content">
+    <div id="caption"></div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+</div>
+
+<div id="contactModalWindow" class="modal-window">
+    <div class="contact-modal-content">
+        <span class="close-contact-btn">&times;</span>
+        <h2>Skontaktuj się z nami</h2>
+        <form>
+            <input type="text" placeholder="Imię" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Telefon">
+            <button type="submit">Wyślij</button>
+        </form>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="js/main.js"></script>
+
+<div class="backdrop"></div>
+</body>
+</html>

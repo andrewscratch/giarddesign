@@ -1,0 +1,147 @@
+.btn_firma {
+    background-color: transparent;
+    color: white;
+    border-radius: 200px;
+    border: 1px solid white;
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    @include mobile {
+        margin-bottom: 60px;
+    }
+}
+
+.btn_firma svg {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.footer__button{
+   background-color: #1B5B31;
+    border-radius: 200px;
+    color: white;
+    margin-right: 36px; 
+    @include mobile {
+       margin-right: 0px;
+    }
+}
+
+.btn.more {
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn.more svg {
+    margin-left: 8px; 
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;          
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.more {
+      background-color: transparent;
+    color: black;
+    border-radius: 200px;
+    border: 1px solid black; 
+}
+
+
+
+.btn-primary {
+    background-color: #1B5B31;
+    border-radius: 200px;
+    color: white;
+    margin-right: 36px;
+    @include mobile {
+   margin-bottom: 30px;
+}
+
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #1B5B31;
+    border-radius: 200px;
+    border: 1px solid green;   
+    @include mobile {
+        margin-bottom: 30px;
+    } 
+    
+}
+
+.insta_button {
+    color: #1B5B31;
+    background: #F5F0EC;
+    border: 1px solid white;
+    border-radius: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 164px; 
+    bottom: 135px; 
+    @include mobile {
+        right: 10%;
+        bottom: 40%;
+    }
+    @include tablet {
+        right: 80px;
+    }
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: #f1f1f1;
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close-contact-btn {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #777;
+    transition: color 0.3s;
+}
+
+.close-contact-btn:hover {
+    color: #333;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.contact-modal-content button {
+    padding: 10px 15px;
+    background-color: #1B5B31;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-modal-content button:hover {
+    background-color: #2b7244;
+}
