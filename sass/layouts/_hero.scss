@@ -35,6 +35,11 @@ margin-top: 84px;
     font-size: 45px;
     margin-top: 40px;
 }
+@include mini {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
 
 }
 

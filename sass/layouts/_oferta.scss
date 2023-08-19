@@ -21,6 +21,9 @@ letter-spacing: -1.44px;
 
 padding-bottom: 32px;
 padding-left: 96px;
+@include mini {
+    font-size: 35px;
+}
 @include mobile {
     padding-left: 30px;
 }

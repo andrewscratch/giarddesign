@@ -88,9 +88,13 @@
     position: absolute;
     right: 164px; 
     bottom: 135px; 
+    
     @include mobile {
         right: 10%;
         bottom: 40%;
+    }
+    @include mini {
+        bottom: 25%;
     }
     @include tablet {
         right: 80px;

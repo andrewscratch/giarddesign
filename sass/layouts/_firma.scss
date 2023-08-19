@@ -54,11 +54,13 @@
     white-space: nowrap; 
     text-overflow: ellipsis; 
     font-family: Montserrat;
-    font-size: 48px;
-    font-style: italic;
+    font-size: 40px;
     font-weight: 500;
     line-height: 115%;
     padding-bottom: 40px;
+    @include mini {
+        font-size: 27px;
+    }
 }
 
 .firma_description {

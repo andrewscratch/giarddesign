@@ -21,6 +21,9 @@
     align-items: center;
     justify-content: space-between; 
     padding-left: 210px;
+    @include mini {
+        flex-direction: column;
+    }
     @include mobile {
         padding-left: 30px;
     }
@@ -38,6 +41,11 @@
     align-items: center; 
     gap: 10px; 
     padding-right: 160px;    
+    @include mini {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+    }
     @include mobile {
         padding-right: 40px;
     }   
@@ -57,6 +65,11 @@
     @include mobile {
         padding-right: 20px;
     }
+    @include mini {
+        max-width: none;
+        padding-right: 150px;
+
+    }
 }
 
 .footer__button {
@@ -70,6 +83,7 @@ hr {
     border: none;
     border-top: 1px solid #ccc;
     margin: 20px 0;
+
     @include mobile {
         max-width: 380px;
     }
@@ -96,6 +110,10 @@ hr {
     gap: 10px;
     align-items: center;
     margin: 20px 0;
+    @include mini {
+   
+        
+    }
 }
 
 .fixed-length {
@@ -103,6 +121,11 @@ hr {
     
     border-top: 1px solid white; 
     margin: 62px auto; 
+        @include mini {
+        max-width: 220px;
+        margin: 30px auto;
+
+    }
 }
 
 
@@ -112,6 +135,9 @@ hr {
     align-items: center; 
     width: 100%; 
     padding: 0; 
+     @include mini {
+        flex-direction: column;
+    }
     @include mobile {
      display: flex;
      justify-content: space-between;
@@ -124,13 +150,17 @@ hr {
 .copyright {
     padding-left: 210px;
     padding-bottom: 80px; 
+  @include mini {
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
     @include mobile {
         padding-left: 30px;
     }     
     @include tablet {
         padding-left: 0px;
     }
-
+ 
 }
 
 
@@ -140,6 +170,12 @@ hr {
     gap: 5px; 
     padding-right: 200px;
     padding-bottom: 80px;   
+    @include mini {
+        padding-bottom: 10px;
+        align-items: normal;
+        padding-left: 115px;
+        font-size: 15px;
+    }
     @include mobile {
         padding-right: 30px;
     }    
@@ -156,6 +192,7 @@ hr {
     align-items: center;
     padding-bottom: 80px;
     padding-left: 210px;
+  
     @include mobile {
         padding-left: 30px;
         flex-wrap: wrap;
@@ -165,6 +202,10 @@ hr {
         display: flex;
         flex-wrap: wrap;
        }
+         @include mini {
+    flex-direction: row;
+    padding-bottom: 0;
+}
 }
 .social__list {
     display: flex;
@@ -182,9 +223,14 @@ hr {
     align-items: center;         
     justify-content: space-between; 
     gap: 20px;  
-      @include mobile {
+    @include mobile {
      margin-left: 60px;
     }  
+     @include mini {
+        margin-left: 8px;
+        margin-bottom: 10px;
+        font-size: 10px;
+}
    
             
 }
@@ -206,4 +252,8 @@ hr {
        padding-right: 0px;
        margin-left: 60px;
     } 
+    @include mini {
+        flex-direction: column;
+        margin-left: 45px;
+    }
 }

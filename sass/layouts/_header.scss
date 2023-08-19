@@ -19,6 +19,7 @@
 }
 
 
+
 .menu__list {
     display: flex;
     gap: 48px;
@@ -224,3 +225,8 @@
     }
 }
 
+.header__inner {
+    @include mini {
+        justify-content: center;
+    }
+}

@@ -202,6 +202,12 @@
     display: none;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .header__inner {
+    justify-content: center;
+  }
+}
+
 .lupa__img {
   transition: opacity 0.3s ease;
 }
@@ -286,6 +292,12 @@
     margin-top: 40px;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .headline {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+}
 
 .description {
   width: 489px;
@@ -348,6 +360,11 @@
   letter-spacing: -1.44px;
   padding-bottom: 32px;
   padding-left: 96px;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .oferta_title {
+    font-size: 35px;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .oferta_title {
@@ -470,7 +487,7 @@
   vertical-align: middle;
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .card-container {
     flex-direction: column;
     align-items: center;
@@ -478,8 +495,6 @@
     padding-right: 10px;
     padding-left: 10px;
   }
-}
-@media (min-width: 480px) {
   .card {
     width: 90%;
     padding: 24px 20px;
@@ -550,11 +565,15 @@
   white-space: nowrap;
   text-overflow: ellipsis;
   font-family: Montserrat;
-  font-size: 48px;
-  font-style: italic;
+  font-size: 40px;
   font-weight: 500;
   line-height: 115%;
   padding-bottom: 40px;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .firma_title {
+    font-size: 27px;
+  }
 }
 
 .firma_description {
@@ -633,6 +652,12 @@
   line-height: 120%;
   letter-spacing: -2px;
 }
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .insta_title {
+    font-size: 17px;
+    margin-bottom: 100px;
+  }
+}
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .insta_title {
     font-size: 21px;
@@ -658,6 +683,11 @@
   line-height: 150%;
   letter-spacing: -0.16px;
   padding-bottom: 24px;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .insta_subtitle {
+    margin-top: 60px;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .insta_subtitle {
@@ -800,6 +830,11 @@
   justify-content: space-between;
   padding-left: 210px;
 }
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer__row1 {
+    flex-direction: column;
+  }
+}
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .footer__row1 {
     padding-left: 30px;
@@ -818,6 +853,13 @@
   align-items: center;
   gap: 10px;
   padding-right: 160px;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .right-section {
@@ -842,6 +884,12 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .logo__img {
     padding-right: 20px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .logo__img {
+    max-width: none;
+    padding-right: 150px;
   }
 }
 
@@ -886,11 +934,16 @@ hr {
   align-items: center;
   margin: 20px 0;
 }
-
 .fixed-length {
   width: 1040px;
   border-top: 1px solid white;
   margin: 62px auto;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .fixed-length {
+    max-width: 220px;
+    margin: 30px auto;
+  }
 }
 
 .copyright-wrapper {
@@ -899,6 +952,11 @@ hr {
   align-items: center;
   width: 100%;
   padding: 0;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .copyright-wrapper {
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .copyright-wrapper {
@@ -915,6 +973,12 @@ hr {
 .copyright {
   padding-left: 210px;
   padding-bottom: 80px;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .copyright {
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .copyright {
@@ -933,6 +997,14 @@ hr {
   gap: 5px;
   padding-right: 200px;
   padding-bottom: 80px;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .author-section {
+    padding-bottom: 10px;
+    align-items: normal;
+    padding-left: 115px;
+    font-size: 15px;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .author-section {
@@ -966,6 +1038,12 @@ hr {
     flex-wrap: wrap;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer__row2-wrapper {
+    flex-direction: row;
+    padding-bottom: 0;
+  }
+}
 
 .social__list {
   display: flex;
@@ -984,6 +1062,13 @@ hr {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .footer__row2 {
     margin-left: 60px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer__row2 {
+    margin-left: 8px;
+    margin-bottom: 10px;
+    font-size: 10px;
   }
 }
 
@@ -1007,6 +1092,12 @@ hr {
     margin-left: 60px;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer__contacts {
+    flex-direction: column;
+    margin-left: 45px;
+  }
+}
 
 .modal {
   display: none;
@@ -1026,6 +1117,16 @@ hr {
   display: block;
   position: relative;
   transform: scale(2);
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .modal-content {
+    max-width: 40%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .modal-content {
+    max-width: 40%;
+  }
 }
 
 .close-btn {
@@ -1107,6 +1208,11 @@ hr {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .contact-modal-content {
     min-width: 70%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .contact-modal-content {
+    max-width: 50%;
   }
 }
 
@@ -1271,6 +1377,11 @@ li {
     bottom: 40%;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .insta_button {
+    bottom: 25%;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .insta_button {
     right: 80px;
@@ -1330,6 +1441,7 @@ li {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0;
+  border: 1px solid red;
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .container {

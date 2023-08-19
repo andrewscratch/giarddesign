@@ -2,7 +2,7 @@
     max-width: 1440px;
     margin: 0 auto;
     padding: 0;
-    // border: 1px solid red;
+    border: 1px solid red;
     @include tablet {
         max-width: 768px;
 }

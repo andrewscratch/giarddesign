@@ -16,7 +16,12 @@
     display: block;
     position: relative;
     transform: scale(2);
-   
+   @include mobile {
+    max-width: 40%;
+ }
+   @include mini {
+    max-width: 40%;
+   }
 }
 
 .close-btn {
@@ -71,7 +76,7 @@
     background-color: rgba(0,0,0,0.5);
     z-index: 1000;
     font-family: 'Arial', sans-serif;
-    
+
 }
 
 .no-scroll {

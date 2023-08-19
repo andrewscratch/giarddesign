@@ -18,10 +18,17 @@
 
 // Define breakpoint values
 $breakpoint-mobile-start: 320px;
+$breakpoint-mini-end: 479px;
 $breakpoint-mobile-end: 767px;
-$breakpoint-tablet-start: 768px; // Adjusted this to start at 480px to prevent overlap
+$breakpoint-tablet-start: 768px; 
 $breakpoint-tablet-end: 1199px;
 $breakpoint-desktop: 1200px;
+
+@mixin mini {
+    @media screen and (min-width: $breakpoint-mobile-start) and (max-width: $breakpoint-mini-end) {
+        @content;
+    }
+}
 
 @mixin mobile {
     @media screen and (min-width: $breakpoint-mobile-start) and (max-width: $breakpoint-mobile-end) {
