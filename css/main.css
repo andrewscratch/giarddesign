@@ -1305,6 +1305,10 @@ li {
   }
 }
 
+.btn_firma_link:hover {
+  transform: scale(1.1);
+}
+
 .btn_firma svg {
   margin-left: 10px;
   vertical-align: middle;
