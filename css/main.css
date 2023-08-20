@@ -185,6 +185,11 @@
     margin-left: 80px;
   }
 }
+@media screen and (max-width: 767px) and (min-width: 320px) and (max-width: 479px) {
+  .header_logo {
+    margin-left: 15px;
+  }
+}
 @media (max-width: 767px) {
   .menu__list-link {
     padding-top: 60px;
@@ -928,12 +933,6 @@ hr {
   background-color: #006940;
 }
 
-.footer__contacts {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  margin: 20px 0;
-}
 .fixed-length {
   width: 1040px;
   border-top: 1px solid white;
@@ -956,6 +955,7 @@ hr {
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .copyright-wrapper {
     flex-direction: column;
+    align-items: flex-start;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -978,6 +978,7 @@ hr {
   .copyright {
     padding-left: 0;
     padding-bottom: 20px;
+    padding-top: 10px;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -1000,10 +1001,11 @@ hr {
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .author-section {
+    align-items: flex-start;
     padding-bottom: 10px;
     align-items: normal;
-    padding-left: 115px;
-    font-size: 15px;
+    padding-left: 30px;
+    font-size: 13px;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -1030,6 +1032,7 @@ hr {
     padding-left: 30px;
     flex-wrap: wrap;
     padding-bottom: 20px;
+    margin-left: 0px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1042,6 +1045,7 @@ hr {
   .footer__row2-wrapper {
     flex-direction: row;
     padding-bottom: 0;
+    margin-left: 0px;
   }
 }
 
@@ -1061,12 +1065,12 @@ hr {
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .footer__row2 {
-    margin-left: 60px;
+    margin-left: 0;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .footer__row2 {
-    margin-left: 8px;
+    margin-left: 0;
     margin-bottom: 10px;
     font-size: 10px;
   }
@@ -1089,13 +1093,14 @@ hr {
   .footer__contacts {
     display: flex;
     padding-right: 0px;
-    margin-left: 60px;
+    margin-left: 0px;
+    margin-top: 20px;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .footer__contacts {
     flex-direction: column;
-    margin-left: 45px;
+    margin-left: 0px;
   }
 }
 
@@ -1252,6 +1257,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   color: black;
   font-family: Inter;
   font-size: 14px;
@@ -1450,6 +1456,11 @@ li {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .container {
     max-width: 480px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .container {
+    max-width: 320px;
   }
 }
 

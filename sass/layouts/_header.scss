@@ -204,6 +204,9 @@
     @include tablet {
         margin-left: 80px;
     }
+    @include mini {
+        margin-left: 15px;
+    }
 }
 .menu__list-link {
     padding-top: 60px;
