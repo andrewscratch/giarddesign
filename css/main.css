@@ -225,7 +225,6 @@
   perspective: 1000px;
   transition: transform 0.5s;
 }
-
 .header_logo:hover {
   transform: rotateY(360deg);
 }

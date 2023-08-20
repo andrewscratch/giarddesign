@@ -60,11 +60,7 @@
     display: none;
     
 }
-// .menu_close {
-//     @include mobile {
-//     color: #FFF;
-//     }
-// }
+
 .lupa__img {
     background-color: transparent;
     @include mobile {
@@ -241,11 +237,11 @@
     display: inline-block;
     perspective: 1000px;
     transition: transform 0.5s;
+    &:hover {
+         transform: rotateY(360deg);
+    }
 }
 
-.header_logo:hover {
-    transform: rotateY(360deg);
-}
 
 
 
