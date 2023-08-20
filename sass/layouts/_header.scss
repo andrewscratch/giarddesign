@@ -185,6 +185,9 @@
             right: 37px;
             z-index: 10;
             fill: #FFF;
+            @include mini {
+                right: 8px;
+                }
           }
         
     }

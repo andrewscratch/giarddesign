@@ -168,6 +168,13 @@
     z-index: 10;
     fill: #FFF;
   }
+}
+@media screen and (max-width: 767px) and (min-width: 320px) and (max-width: 479px) {
+  .menu__list .close-menu {
+    right: 8px;
+  }
+}
+@media (max-width: 767px) {
   .header__inner {
     display: flex;
     flex-direction: row;
