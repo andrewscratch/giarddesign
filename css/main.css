@@ -220,6 +220,16 @@
   }
 }
 
+.header_logo {
+  display: inline-block;
+  perspective: 1000px;
+  transition: transform 0.5s;
+}
+
+.header_logo:hover {
+  transform: rotateY(360deg);
+}
+
 .lupa__img {
   transition: opacity 0.3s ease;
 }
