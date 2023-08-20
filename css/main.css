@@ -655,7 +655,8 @@
   .insta_card {
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 380px;
+    margin-top: 180px;
+    margin-bottom: 0px;
     padding-left: 0px;
   }
 }
@@ -1481,7 +1482,7 @@ li {
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .container {
-    max-width: 320px;
+    max-width: 380px;
   }
 }
 
