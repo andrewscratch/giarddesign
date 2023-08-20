@@ -1,21 +1,3 @@
-// @mixin mobile {
-//     @media screen and (min-width:480px) {
-//         @content;
-//     }
-// }
-
-// @mixin tablet {
-//     @media screen and (min-width:767px) {
-//         @content;
-//     }
-// }
-
-// @mixin desktop {
-//     @media screen and (min-width:1200px) {
-//         @content;
-//     }
-// }
-
 // Define breakpoint values
 $breakpoint-mobile-start: 320px;
 $breakpoint-mini-end: 479px;

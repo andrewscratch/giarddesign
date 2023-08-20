@@ -42,15 +42,15 @@
             background-color: #006940;
             
             @include tablet {
-                color: black; // reset to default color
-                background-color: transparent; // reset to default background-color
+                color: black; 
+                background-color: transparent; 
             }
         }
 
         @include tablet {
             font-size: 18px;
             &:hover {
-                transform: scale(1); // Reset transform on tablets
+                transform: scale(1); 
             }
         }
     }
