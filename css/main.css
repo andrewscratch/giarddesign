@@ -1465,6 +1465,24 @@ li {
   background-color: #2b7244;
 }
 
+.scroll-to-top {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  background-color: #000;
+  color: #FFF;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 24px;
+  display: none;
+  cursor: pointer;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+.scroll-to-top:hover {
+  background-color: #555;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;

@@ -76,6 +76,24 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
+let scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+window.addEventListener("scroll", function() {
+  if (window.scrollY > 1000) { // Якщо користувач прокрутив на більше ніж 200 пікселів
+    scrollToTopBtn.style.display = "block";
+  } else {
+    scrollToTopBtn.style.display = "none";
+  }
+});
+
+scrollToTopBtn.addEventListener("click", function() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth" // плавна прокрутка
+  });
+});
+
+
     // Ensure the grid exists
     var grid = document.querySelector('.grid');
     if (grid) {
