@@ -307,9 +307,12 @@
     <a class="next">&#10095;</a>
 </div>
 
+<input type="checkbox" id="modalToggle">
+<label for="modalToggle">Відкрити модальне вікно</label>
+
 <div id="contactModalWindow" class="modal-window">
     <div class="contact-modal-content">
-        <span class="close-contact-btn">&times;</span>
+        <label for="modalToggle" class="close-contact-btn">&times;</label>
         <h2>Skontaktuj się z nami</h2>
         <form>
             <input type="text" placeholder="Imię" required>
@@ -319,6 +322,7 @@
         </form>
     </div>
 </div>
+
 
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
