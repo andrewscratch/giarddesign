@@ -14,10 +14,10 @@
         max-width: 50%;
     }
     @include tablet {
-        min-width: 70%;
+        min-width: 80%;
     }
     @include mini {
-        max-width: 50%;
+        max-width: 80%;
     }
 }
 

@@ -655,7 +655,7 @@
   .insta_card {
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 180px;
+    margin-top: 80px;
     margin-bottom: 0px;
     padding-left: 0px;
   }
@@ -1229,12 +1229,12 @@ hr {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .contact-modal-content {
-    min-width: 70%;
+    min-width: 80%;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .contact-modal-content {
-    max-width: 50%;
+    max-width: 80%;
   }
 }
 
