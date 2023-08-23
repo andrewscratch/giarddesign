@@ -493,6 +493,11 @@
   align-items: center;
   gap: 10px;
 }
+.card_link:hover {
+  color: #0A4020;
+  border-color: #0A4020;
+  transform: translateY(-2px);
+}
 
 .card_text {
   color: var(--black, #111);
